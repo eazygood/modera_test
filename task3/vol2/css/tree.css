@@ -1,0 +1,80 @@
+    body {
+            width: 960px;
+        }
+
+	#collapseMenu {
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: left;
+        position: relative;
+		width: 20%;
+	}
+
+	#collapseMenu,
+	#collapseMenu ul,
+	#collapseMenu li,
+	#collapseMenu a {
+		text-decoration: none;
+		list-style-type: none;
+		color: #676767;
+		padding: 0;
+		border: 0;
+		position: relative;
+		font-size: 1em;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	#collapseMenu a {
+		line-height: 1.2;
+	}
+
+	#collapseMenu ul li a {
+		transition: 200ms ease-in;
+	}
+
+	#collapseMenu > ul > li:first-child > a {
+		padding: 10px 10px;
+		border: none;
+		border-top: 1px solid #636b6f
+
+	}
+
+	#collapseMenu > ul > li {
+		border-bottom: 1px solid black;
+	}
+
+	#collapseMenu > ul > li > a {
+		padding: 10px 10px;
+		display: block;
+	}
+
+	#collapseMenu > ul > li.active {
+		border-bottom: none;
+	}
+
+	#collapseMenu ul ul {
+		display: none;
+		background: #f5f8fa;
+		padding-left: 5px;
+	}
+
+	#collapseMenu ul ul li {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	#collapseMenu ul ul a {
+		padding-bottom: 5px;
+		padding-left: 5px;
+		display: block;
+		color: #676767;
+		transition: 200ms ease-in;
+	}
+
+	#collapseMenu ul ul a:hover {
+		color: black;
+	}
+
+	#collapseMenu ul li a:hover {
+		color: black;
+	}
