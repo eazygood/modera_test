@@ -18,4 +18,4 @@ Route::get('/', function () {
 //Route::get('/file', 'ItemsController@transfromInputFileIntoObject');
 Route::get('/file2', 'ItemsController@addAvailableItemsToDatabase');
 
-Route::get('index', "ItemsController@getTreeView");
+Route::get('index', "ItemsController@renderCategories");
