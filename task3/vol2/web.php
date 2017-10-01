@@ -15,12 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/file', 'ItemsController@transfromInputFileIntoObject');
+//Route::get('/file', 'ItemsController@transfromInputFileIntoObject');
 Route::get('/file2', 'ItemsController@addAvailableItemsToDatabase');
 
-Route::get('create', function(){
-	return view('create');
-});
-
 Route::get('index', "ItemsController@getTreeView");
-
